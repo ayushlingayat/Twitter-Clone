@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone : Connect with the world through the twitter application</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="icon" href="https://img.freepik.com/free-vector/twitter-app-icon-vector-with-watercolor-graphic-effect-21-july-2021-bangkok-thailand_53876-136770.jpg?size=626&ext=jpg&ga=GA1.1.20939705.1710506825&semt=ais">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white ">
+    <div class="flex mx-auto container ">
+        <div class="first w-[70%]">
+            <div class="logo invert text-4xl my-2 mx-2">
+                <img src="./images/twitter_logo.jpg" alt="twitter img" class="w-7">
+            </div>
+
+            <div class="sidebar-class flex flex-col justify-end">
+                <ul class="flex flex-col justify-center items-start text-xl space-y-3 px-11">
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-home-5-line"></i>
+                        Home</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-search-2-line"></i>
+                        Explore</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-notification-2-line"></i>
+                        Notification</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-gradienter-line"></i>
+                        Grok</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-list-view"></i>
+                        Lists</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-bookmark-line"></i>
+                        Bookmark</li>
+
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-message-2-line"></i>
+                        Message</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-skull-2-line"></i>
+                        Communities</li>
+                    <li class="gap-3 flex justify-start items-center px-2  font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-twitter-x-line"></i>
+                        Premium</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-user-5-line"></i>
+                        Profile</li>
+                    <li class="gap-3 flex justify-start items-center px-2 font-semibold py-1 hover:bg-gray-900 cursor-pointer  hover:rounded-full w-fit ">
+                        <i class="ri-more-line"></i>
+                        More</li>
+                </ul>
+
+                <div class="button-div m-7">
+                    <button class="py-2 px-4 rounded-full bg-[skyblue] text-xl text-black w-1/2 font-bold">Post</button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="second border-black w-full relative">
+
+            <div class="top flex m-3">
+                <div class="left w-1/2 flex items-center justify-center font-bold text-lg underline ">For You</div>
+                <div class="right  w-1/2 flex items-center justify-center font-bold text-lg underline">Following</div>
+                <div class="settings my-2 px-7 text-lg">
+                    <i class="ri-settings-2-line"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="foryou flex gap-4">
+                <div class="img-div w-[70px] h-[70px] rounded-full">
+                    <img src="images/ayush.jpg" alt="" class="rounded-full my-4">
+                </div>
+                <input class="w-full bg-black text-white mx-5 h-7 my-5 outline-none text-lg" type="text" placeholder="What is Happening ?">
+                
+                
+            </div>
+            <div class="text-blue-600 flex items-center mx-5 px-20">
+                <i class="ri-earth-line "></i>
+                <span class="px-2 py-4">Everyone Can Reply</span>
+                
+            </div>
+            
+            <div class="icons flex gap-2 px-20">
+                <i class="ri-landscape-line px-2 text-lg font-semibold cursor-pointer"></i>
+                <i class="ri-image-line px-2 text-lg font-semibold cursor-pointer"></i>
+                <i class="ri-gift-2-line px-2 text-lg font-semibold cursor-pointer"></i>
+                <i class="ri-chat-smile-3-line px-2 text-lg font-semibold cursor-pointer"></i>
+                <i class="ri-calendar-line px-2 text-lg font-semibold cursor-pointer"></i>
+                <i class="ri-map-pin-2-line px-2 text-lg font-semibold cursor-pointer"></i>
+            </div>
+            <hr>
+
+
+            <div class="posts">
+                <div class="post flex gap-2">
+                    <div class="image w-[200px] h-[200px] ">
+                        <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsfGVufDB8fDB8fHww" alt="" class="rounded-full my-4">
+                    </div>
+
+                    <div class="content my-3">
+                        <span class="font-semibold text-white hover:underline cursor-pointer ">Wildlife and Animals 
+                            <i class="ri-verified-badge-line bg-[blue]"></i>
+                        </span>
+                        <span class="text-sm text-gray-200 font-semibold hover:text-[skyblue] cursor-pointer"> 6 Hours Updated</span>
+                        <div class="legend">White Tiger</div>
+                        <div class="post-img m-4 ml-0">
+                            <img src="https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="h-[30%] opacity-1 rounded-xl">
+                        </div>
+
+                        <div class="comment-like flex mx-2 text-semibold text-lg justify-between text-gray-300 w-[70%] mx-auto ">
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-heart-3-line hover:cursor-pointer"> 10K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-repeat-line hover:cursor-pointer"></i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                               
+                                <i class="ri-chat-3-line hover:cursor-pointer"> 1K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-bar-chart-2-line hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="post flex gap-2">
+                    <div class="image w-[40px] h-[40px] ">
+                        <img src="https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90cmFpdHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="rounded-full my-4">
+                    </div>
+
+                    <div class="content my-3">
+                        <span class="font-semibold text-white hover:underline cursor-pointer ">Nature and Photography
+                            <i class="ri-verified-badge-line bg-[blue]"></i>
+                        </span>
+                        <span class="text-sm text-gray-200 font-semibold hover:text-[skyblue] cursor-pointer">Updated 9 Hours ago</span>
+                        <div class="legend">Nature Image</div>
+                        <div class="post-img m-4 ml-0">
+                            <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="h-[100%] opacity-1 rounded-xl">
+                        </div>
+
+                        <div class="comment-like flex mx-2 text-semibold text-lg justify-between text-gray-300 w-[70%] mx-auto ">
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-heart-3-line hover:cursor-pointer"> 40K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-repeat-line hover:cursor-pointer"></i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                               
+                                <i class="ri-chat-3-line hover:cursor-pointer"> 19K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-bar-chart-2-line hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="post flex gap-2">
+                    <div class="image w-[40px] h-[40px] ">
+                        <img src="https://images.unsplash.com/photo-1618151313441-bc79b11e5090?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvdHJhaXR8ZW58MHx8MHx8fDA%3D" alt="" class="rounded-full my-4">
+                    </div>
+
+                    <div class="content my-3">
+                        <span class="font-semibold text-white hover:underline cursor-pointer ">Fashion and Models
+                            <i class="ri-verified-badge-line bg-[blue]"></i>
+                        </span>
+                        <span class="text-sm text-gray-200 font-semibold hover:text-[skyblue] cursor-pointer">Updated 12 Hours ago</span>
+                        <div class="legend">Girls Fashion</div>
+                        <div class="post-img m-4 ml-0">
+                            <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdpcmwlMjBtb2RlbHN8ZW58MHx8MHx8fDA%3D" alt="" class="h-[5%] opacity-1 rounded-xl">
+                        </div>
+
+                        <div class="comment-like flex mx-2 text-semibold text-lg justify-between text-gray-300 w-[70%] mx-auto ">
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-heart-3-line hover:cursor-pointer"> 70K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-repeat-line hover:cursor-pointer"></i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                               
+                                <i class="ri-chat-3-line hover:cursor-pointer"> 54K</i>
+                            </div>
+                            <div class="icon flex items-center justify-center">
+                                <i class="ri-bar-chart-2-line hover:cursor-pointer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+            </div>
+        </div>
+        
+
+
+        <div class="third w-full bg-fixed bg-scroll bg-local ">
+            <div class="search my-5">
+                <label for="search"><i class="ri-search-line bg-gray-900 text-white m-1 cursor-pointer"></i></label>
+                <input type="text" placeholder="Search" class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2 " id="search">
+            </div>
+
+            <div class="whats m-8 w-1/2 bg-gray-950 py-3 rounded-xl space-y-3 hover:bg-gray-800 cursor-pointer">
+                <h1 class="text-xl font-bold px-4 p-3 hover:bg-gray-800 cursor-pointer">What's Happening</h1>
+                <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+                    <div class="font-bold text-sm">#Orry</div>
+                    <div class="text-sm text-gray-300">40.2k Posts</div>
+                </div>
+            </div>
+
+            <div class="whats m-8 w-1/2 bg-gray-950 py-3  rounded-xl space-y-3 hover:bg-gray-800 cursor-pointer">
+                <h1 class="text-xl font-bold px-4 p-3 hover:bg-gray-800 cursor-pointer">Latest's Post</h1>
+                <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-300">Ayush Lingayat</div>
+                    <div class="font-bold text-sm">#Ayu</div>
+                    <div class="text-sm text-gray-300">2.2k Posts</div>
+                </div>
+            </div>
+
+            <div class="whats m-8 w-1/2 bg-gray-950 py-3  rounded-xl space-y-3 hover:bg-gray-800 cursor-pointer">
+                <h1 class="text-xl font-bold px-4 p-3 hover:bg-gray-800 cursor-pointer">What's Happening</h1>
+                <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-300">Trending Technology</div>
+                    <div class="font-bold text-sm">#JavaScript</div>
+                    <div class="text-sm text-gray-300">70.2k Posts</div>
+                </div>
+            </div>
+
+
+            <div class="who m-4 w-1/2 bg-gray-950 rounded-xl space-y-2 px-4 p-3">
+                <h1 class="text-xl font-bold px-4 p-3">Who to follow</h1>
+               
+                    <div class="font-bold text-sm text-gray-300 flex items-center justify-start px-3 cursor-pointer">Akshay Kumar <span class="text-xl">😘</span>
+                       
+                        <div class="button-div m-7">
+                            <button class="py-1 px-3 rounded-full bg-[black] text-sm text-white w-[100px] font-bold">Follow <i class="ri-user-follow-fill"></i></button>
+ 
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="font-bold text-sm text-gray-300 flex items-center justify-start px-3 cursor-pointer">Ranveer Kapoor <span class="text-xl">🙂</span>
+                        <div class="button-div m-7">
+                            <button class="py-1 px-3 rounded-full bg-[black] text-sm text-white w-[100px] font-bold">Follow <i class="ri-user-follow-fill"></i></button>
+ 
+                        </div>
+                    </div>
+                    
+
+                    <div class="show text-[skyblue] underline my-3 px-3 cursor-pointer">Show More
+                        
+                    </div>
+                </div>
+        </div>
+
+
+       
+            
+        
+
+       
+
+    </div>
+    <div class="footer w-full h-[50%] ">
+        <p class="text-center font-bold flex items-center justify-center py-5 px-5">AYU &copy; Twitter Clone</p> 
+    </div>
+</body>
+</html>
